@@ -5,9 +5,12 @@
   "description": "Syntax theme inspired by the falcon 9 rocket",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "c++",
+    "falcon9",
+    "spacex"
   ],
-  "repository": "https://github.com/ngrande/falcon9-syntax.git",
+  "repository": "https://github.com/ngrande/falcon9-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
