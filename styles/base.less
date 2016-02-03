@@ -1,0 +1,65 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: lighten(@spacex-gray, 43%);//@syntax-background-color;
+  color: @spacex-gray; //@syntax-text-color;
+
+  .cursor {
+    color: @spacex-blue;//@syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color:@spacex-blue;//@syntax-selection-color;
+  }
+}
+
+.meta {
+  color: @spacex-gray;
+}
+
+.comment {
+  color: lighten(@spacex-gray, 20%);
+}
+
+.link {
+  color: lighten(@spacex-blue, 50%);
+  text-decoration: underline;
+}
+
+.entity {
+  color: @lilac;
+  &.type {
+    color: lighten(@spacex-blue, 20%);
+    text-decoration: underline;
+  }
+}
+
+.punctuation {
+  &.definition {
+    &.begin {
+      color: @mint;
+    }
+    &.end {
+      color: @mint;
+    }
+  }
+}
+
+.other {
+  &.include {
+    color: @mint;
+    opacity: 0.7;
+  }
+}
+
+.string {
+  color: darken(@green, 5%);
+}
+
+.storage {
+  color: @spacex-blue;
+}
+
+.keyword {
+  color: @mint;
+}
