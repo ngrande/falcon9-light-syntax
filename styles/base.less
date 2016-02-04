@@ -19,8 +19,6 @@ atom-text-editor,
 scrollbars-visible-always {
    ::-webkit-scrollbar,
   /deep/ ::-webkit-scrollbar {
-    color: lighten(@spacex-gray, 25%);
-    background-color: lighten(@spacex-gray, 25%);
     &-track {
       background-color: lighten(@spacex-gray, 25%);
     }
@@ -31,7 +29,8 @@ scrollbars-visible-always {
     &-thumb:hover {
       background-color: @spacex-gray;
     }
-    &-corner {}
+    &-corner {
+    }
   }
 }
 .meta {
@@ -59,6 +58,9 @@ scrollbars-visible-always {
 }
 .punctuation {
   color: @spacex-blue;
+  &.directive {
+    color: @mint;
+  }
   &.definition {
     &.begin {
       color: @mint;
