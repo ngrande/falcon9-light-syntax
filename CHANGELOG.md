@@ -13,3 +13,6 @@
 
 ## 0.3.3 - Light on!
 * renamed the falcon9-syntax to falcon9-light-syntax
+
+## 0.3.4 - ...
+* had to publish a new version to make the screenshot work again. Noob on work.
