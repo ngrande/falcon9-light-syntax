@@ -10,3 +10,6 @@
 
 ## 0.3.2 - Style fix
 * '#import <...>' now has a consistent look
+
+## 0.3.3 - Light on!
+* renamed the falcon9-syntax to falcon9-light-syntax

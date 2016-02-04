@@ -14,7 +14,7 @@
     "falcon9",
     "spacex"
   ],
-  "repository": "https://github.com/ngrande/falcon9-syntax",
+  "repository": "https://github.com/ngrande/falcon9-light-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

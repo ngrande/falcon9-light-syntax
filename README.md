@@ -1,5 +1,5 @@
-# falcon9-syntax theme
+# falcon9-light-syntax theme
 
-A theme inspired by the falcon 9 rocket.
+A [light] theme inspired by the falcon 9 rocket.
 
-![Sample screenshot](https://raw.githubusercontent.com/ngrande/falcon9-syntax/master/falcon9-syntax_V_0_3_0.png)
+![Sample screenshot](https://raw.githubusercontent.com/ngrande/falcon9-light-syntax/master/falcon9-syntax_V_0_3_0.png)
