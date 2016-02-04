@@ -4,3 +4,6 @@
 
 ## 0.3.0 - Fix
 * fixed the sample screenshot to display in the package manager
+
+## 0.3.1 - Again
+* now the screenshot matches the version / style 
