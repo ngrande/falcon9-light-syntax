@@ -1,31 +1,49 @@
 @import "syntax-variables";
-
-atom-text-editor, :host {
-  background-color: lighten(@spacex-gray, 43%);//@syntax-background-color;
-  color: @spacex-gray; //@syntax-text-color;
-
+atom-text-editor,
+:host {
+  background-color: lighten(@spacex-gray, 44%);
+  color: @spacex-gray;
   .cursor {
-    color: @spacex-blue;//@syntax-cursor-color;
+    color: @spacex-blue;
   }
-
   .selection .region {
-    background-color:@spacex-blue;//@syntax-selection-color;
+    background-color: @spacex-blue;
+  }
+  .line-number {
+    &.cursor-line {
+      font-weight: bold;
+    }
   }
 }
-
+.scrollbars-visible-always atom-text-editor,
+scrollbars-visible-always {
+   ::-webkit-scrollbar,
+  /deep/ ::-webkit-scrollbar {
+    color: lighten(@spacex-gray, 25%);
+    background-color: lighten(@spacex-gray, 25%);
+    &-track {
+      background-color: lighten(@spacex-gray, 25%);
+    }
+    &-thumb {
+      border-color: lighten(@spacex-gray, 25%);
+      background-color: lighten(@spacex-gray, 15%);
+    }
+    &-thumb:hover {
+      background-color: @spacex-gray;
+    }
+    &-corner {}
+  }
+}
 .meta {
   color: @spacex-gray;
 }
-
 .comment {
   color: lighten(@spacex-gray, 20%);
 }
-
 .link {
   color: lighten(@spacex-blue, 50%);
   text-decoration: underline;
 }
-
 .entity {
   color: @lilac;
   &.type {
@@ -33,8 +51,14 @@ atom-text-editor, :host {
     text-decoration: underline;
   }
 }
-
+.bracket-matcher .region {
+  background-color: lighten(@spacex-gray, 20%);
+  opacity: 0.2;
+  border-bottom: 0px dotted @spacex-blue;
+  position: absolute;
+}
 .punctuation {
+  color: @spacex-blue;
   &.definition {
     &.begin {
       color: @mint;
@@ -44,22 +68,18 @@ atom-text-editor, :host {
     }
   }
 }
-
 .other {
   &.include {
     color: @mint;
     opacity: 0.7;
   }
 }
-
 .string {
-  color: darken(@green, 5%);
+  color: darken(@mint, 10%);
 }
-
 .storage {
   color: @spacex-blue;
 }
-
 .keyword {
   color: @mint;
 }
