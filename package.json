@@ -4,15 +4,13 @@
   "version": "0.3.3",
   "description": "Syntax theme inspired by the falcon 9 rocket",
   "keywords": [
-    "syntax",
-    "theme",
-    "beautiful",
-    "mint",
     "light",
     "falcon",
-    "ngrande",
-    "falcon9",
-    "spacex"
+    "spacex",
+    "syntax",
+    "theme",
+    "mint",
+    "falcon"
   ],
   "repository": "https://github.com/ngrande/falcon9-light-syntax",
   "license": "MIT",
