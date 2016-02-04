@@ -6,4 +6,7 @@
 * fixed the sample screenshot to display in the package manager
 
 ## 0.3.1 - Again
-* now the screenshot matches the version / style 
+* now the screenshot matches the version / style
+
+## 0.3.2 - Style fix
+* '#import <...>' now has a consistent look
