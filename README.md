@@ -2,4 +2,4 @@
 
 A theme inspired by the falcon 9 rocket.
 
-![Sample screenshot](https://github.com/ngrande/falcon9-syntax/blob/master/falcon9-syntax-screenshot.png)
+![Sample screenshot](https://raw.githubusercontent.com/ngrande/falcon9-syntax/master/falcon9-syntax-screenshot.png)
